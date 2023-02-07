@@ -62,7 +62,7 @@ h1{
     font-size: 18px;
     margin-bottom: 14px;
 }
-button{
+.section1 button{
     background-color: #3882f6;
     padding: 10px 32px;
     border-radius: 6px;
@@ -118,6 +118,42 @@ button{
     font-size: 18px;
     font-weight: 900;
     color: #1f2937;
+}
+.signup-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 46px;
+    margin-bottom: 46px;
+}
+
+.blue-container{
+    background-color: #3882f6;
+    border-radius: 9px;
+    padding: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.signup-section button {
+    padding: 10px 32px;
+    border-radius: 6px;
+    background-color: #3882f6;
+    border: 1px white solid;
+    font-size: 14px;
+    color: #f9faf8;
+}
+
+footer{
+    background-color: #1f2937;
+    align-items: center;
+    text-align: center;
+    color: #f9faf8;
+    padding: 32px;
 }
 
 
